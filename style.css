@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.author {
+    padding-top: 0.7rem;
+}
+
+.author > * {
+    padding: 0.7rem 1.5rem;
+}
+
+.abstract > * {
+    padding: 0.7rem 1.5rem;
+    line-height: 2;
+}
+
+ol {
+    margin-left: 3rem;
+}
+
+img {
+    padding: 2rem;
+    margin: 1rem 0rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
